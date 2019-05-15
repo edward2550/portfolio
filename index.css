@@ -1,0 +1,76 @@
+/* NAV */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  nav i {
+    font-size: inherit;
+  }
+  
+  /* BANNER */
+  .banner {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* PROJECTS */
+  .project .tags {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .project .tags li {
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 0.25rem;
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  img{
+    max-width: 100%;
+  }
+  
+  /* ABOUT */
+  .about {
+    text-align: center;
+  }
+  .about img {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+  }
+  
+  .about p {
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    background: lightgrey;
+  }
+  
+  footer p {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+  
+  footer p + p {
+    margin-top: 0.5em;
+  }
+  
+  .media li + li {
+    margin-top: 0;
+  }
+  

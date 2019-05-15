@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>HTML first wireframe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-    <nav role="navigation">Nav</nav>
-    <main role="main">
-        <header role="banner">
-            <h1>Hero</h1>
-        </header>
-
-        <section>
-            Section 1
-            maybe about me 
-        </section>
-
-        <section>
-            Section 2
-            project1
-        </section>
-
-        <section>
-            Section 3
-            project 2
-        </section>
-
-        <section>
-            Project 3
-            project 3
-        </section>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PORTFOLIO -- initial page load</title>
+    <!-- ICON FONT -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="theme.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <a href="menu.html">
+        <i class="material-icons">menu</i>
+      </a>
+    </nav>
+    <section class="banner">
+      <h1>Hi i'm Edward &#x1F44B;</h1>
+    </section>
+    <section class="what-i-do">
+      <h2>ASPIRING Junior Developer Wagner College Rising Senior Scholar Athlete - Football:</h2>
+      <ul>
+        <li>
+          <h3> Edward Nunez &#x1f409; </h3>
+          <p>
+             I am a Junior business major at Wagner College and currently enrolled in the Front End Web Development Career Path bootcamp at Thinkful. 
+             I am also a NCAA Division 1 Football Scholar-Athlete.
+          </p>
+        </li>
+        <li>
+          <h3> code &#x2728; </h3>
+          <p> skilled in  HTML, CSS, Javascript, jQuery,
+              inteserted in learning more coding and mastering them. 
+          </p>
+        </li>
         
-        <section>
-            Section 4
-            contact info
-        </section>
-    </main>
-    <footer role="content-info">Footer</footer>
-</body>
+      </ul>
+    </section>
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li class="project">
+          <img src="http://i64.tinypic.com/16bwyhd.png"  >
+          <h3>
+            <a> Geographic Quiz </a>
+          </h3>
+          <p> A quiz App about the world Geographic, to test people knowlege about the world!!</p>
+          <ul class="tags">
+            <li>Javascript</li>
+            <li>Jquery</li>
+            <li>HTML</li>
+            <li>Css</li>
+          </ul>
+          <button>
+            <a href=""> View website </a>
+            <p>or</p>
+            <a href=""> View Code </a>
+          </button>
+        </li>
+    <section class="about">
+      <h2>About me</h2>
+      <img src="https://picsum.photos/id/180/2400/1600" alt="laptop" height="200" width="200">
+      <p> Immigrant kid with a chip on a shoulder with a passion of learning anything about the technological world especially programming. </p>
+      <button>
+        <a href="">contact me</a>
+      </button>
+    </section>
+    
+    <footer>
+      <ul class="media">
+              <li><a href="https://github.com/edward2550"><i class="fab fa-github-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/edward-nunez-a2b094175"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://wagnerathletics.com/roster.aspx?rp_id=11578"><i class="fas fa-football-ball"></i></a></li>
+            </ul>
+      <p> Edwardnunez31@gmail.com </p>
+      <p>&copy; Edward Nuenz 2019</p>
+    </footer>
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
