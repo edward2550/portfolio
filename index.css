@@ -1,30 +1,46 @@
-/* NAV */
 nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    padding: 1rem;
+    padding: 10px;
     font-size: 2rem;
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
   }
+
+
   
-  nav i {
-    font-size: inherit;
+  .top li {
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+   }
+
+   .top li a {
+    color: black;
+    text-decoration: none;
+    font-size:40px;
+    transition: all ease-in-out 250ms;
+  }
+  .top  a:hover{
+    color:rgb(214, 16, 16);
   }
   
   /* BANNER */
   .banner {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: url(https://picsum.photos/id/1000/5626/3635);
   }
   
   /* PROJECTS */
   .project .tags {
     display:flex;
     flex-wrap: wrap;
+  
   }
   
   .project .tags li {
@@ -51,8 +67,7 @@ nav {
   }
   
   .about p {
-    width: 100%;
-    text-align: left;
+    font-size: 20px;
   }
   
   /* FOOTER */
@@ -62,8 +77,9 @@ nav {
   }
   
   footer p {
-    font-size: 0.75rem;
+    font-size: 15px;
     margin: 0;
+    padding: 0;
   }
   
   footer p + p {
@@ -73,4 +89,3 @@ nav {
   .media li + li {
     margin-top: 0;
   }
-  
